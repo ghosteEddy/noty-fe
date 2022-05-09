@@ -1,4 +1,4 @@
-const ENDPOINT = 'http://localhost:8080';
+const ENDPOINT = 'http://13.213.40.209:7788';
 const OPTIONS = {
 	'Access-Control-Request-Headers': '*',
 	'Access-Control-Request-Method': '*',
