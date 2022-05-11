@@ -4,7 +4,7 @@ function GasDataCard(props) {
 	const priceDiff = data.tomorrow - data.today;
 	let priceDiffLabel = '';
 	if (priceDiff !== 0) {
-		priceDiffLabel = `(${String(priceDiff)}) `;
+		priceDiffLabel = `(${String(priceDiff.toFixed(2))}) `;
 	}
 	let nameColor = 'bg-white';
 	if (Number(data.today) > Number(data.tomorrow)) {

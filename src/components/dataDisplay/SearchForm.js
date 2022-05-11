@@ -15,6 +15,7 @@ function SearchForm(params) {
 				type='text'
 				name='search'
 				autoComplete='false'
+				autoSave='false'
 				className=' bg-amber-50 border-2 rounded-md w-96 p-2 max-w-full'
 				placeholder='Search Here ...'
 				value={searchValue}

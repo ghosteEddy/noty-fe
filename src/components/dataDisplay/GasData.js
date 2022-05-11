@@ -11,17 +11,17 @@ function GasData(props) {
 
 	function handleSearch(text = '') {
 		setSearchReady(false);
-		console.log(text);
+		// console.log(text);
 		if (true) {
 			for (let index = 0; index < data.length; index++) {
 				const ele = data[index];
-				console.log(ele.name);
-				if (ele.name.includes(text)) {
+				// console.log(ele.name);
+				if (ele.name.toUpperCase().includes(text.toUpperCase())) {
 					ele.show = true;
 				} else {
 					ele.show = false;
 				}
-				console.log(ele.show);
+				// console.log(ele.show);
 			}
 		}
 		setData(data);
