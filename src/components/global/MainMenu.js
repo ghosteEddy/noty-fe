@@ -13,7 +13,7 @@ function MainMenu(props) {
 			<button
 				className={
 					classes +
-					' bg-slate-700 text-white font-medium px-4 h-10 rounded-md border-2 hover:bg-white hover:text-black'
+					' bg-slate-700 text-white font-medium px-4 h-10 rounded-md border-2 hover:bg-white hover:text-black shadow-lg'
 				}
 				id={productGroup}
 				onClick={() => handleClickedMenu(productGroup)}

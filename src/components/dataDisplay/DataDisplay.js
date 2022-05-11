@@ -13,7 +13,7 @@ function DataDisplay(props) {
 		case 'gas': {
 			return (
 				<div>
-					<CustomHeader text='Gas Price' />
+					<CustomHeader text='Thailand Gas Price' />
 					<GasData />
 				</div>
 			);
